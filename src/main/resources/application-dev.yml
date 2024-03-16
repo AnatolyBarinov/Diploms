@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:h2:mem:cloudservice;MODE=PostgreSQL
-    username: sa
-    password:
+    username: postgres
+    password: sa
   jpa:
     show-sql: true
     hibernate:

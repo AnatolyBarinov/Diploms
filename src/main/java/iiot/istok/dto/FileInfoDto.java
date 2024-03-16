@@ -1,2 +1,18 @@
-package iiot.istok.dto;public class FileInfoDto {
+package iiot.istok.dto;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@Getter
+@AllArgsConstructor
+public class FileInfoDto {
+
+    private final String filename;
+
+    private final long size;
+
+    @JsonIgnore
+    private final String hash;
+
 }

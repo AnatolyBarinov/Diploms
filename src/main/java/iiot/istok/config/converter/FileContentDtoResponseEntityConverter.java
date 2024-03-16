@@ -1,4 +1,4 @@
-package iiot.istok.converter;
+package iiot.istok.config.converter;
 
 
 

@@ -7,7 +7,28 @@ import lombok.Getter;
 @AllArgsConstructor
 public class ErrorResponse {
 
-    private final int id;
-    private final String message;
+    private  int id;
+    private  String message;
+
+    // Getters and setters
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
 
 }
+
+
+
+
